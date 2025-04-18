@@ -1,0 +1,45 @@
+В формулах для рассеяния выше фигурировал формфактор $F(q,v)$ (\ref{eq::ff_def}). Его значение является модельно зависимым. Для определения формфактора в конкретных моделях находится из релятивисткой теории нерелятивисткий оператор $\hat{V}$ взаимодействия частиц тёмной материи и нуклонов.
+$\hat{V}$ раскладывается на линейную комбинацию операторов $\hat{O}_i$.
+\begin{equation}
+	\hat{V}_{\chi N}(\vec{r}_{\chi} - \vec{r}_{N}) = \sum_i{c_i \hat{O}_i} 
+\end{equation}
+А гамильтониан взаимодействия тёмной материи и ядра является суммой $\hat{V}_{\chi N}$ по всем нуклонам:
+\begin{equation}
+	\mathcal{H}_{int} = \sum_{k}{\hat{V}_{\chi k}(\vec{r}_{\chi} - \vec{r}_{k})} 
+\end{equation}
+
+Вычисление матричных элементов от $\mathcal{H}_{int}$ рассматривается в работах [refs]. 
+
+В случае упругой тёмной материи рассматривают 2 сценария: когда взаимодействие является спин-независимым и спин зависимым. 
+Например, многих моделях фермионной тёмной материи, взаимодействие с нуклонами имеет вид $\bar{\chi}\gamma^{\mu}\chi \bar{N}\gamma^{\mu}N$, что соответствует спин независимому оператору $\hat{O}_1 = 1$ или $\bar{\chi}\gamma^{\mu}\gamma^{\mu}\chi \bar{N}\gamma^{\mu}\gamma^{5}N$, что соответствует спин зависимому оператору $-4\hat{O}_4 = -4c \vec{S}_{\chi}\cdot\vec{S}_{N}$.
+
+Неупругая тёмная материя возникает в достаточно специфичных сценариях. В данной работе мы рассмотрим неупругую тёмную материю со спин независимым взаимодействием с нуклоном $c \hat{O}_1$ а также тёмную материю c магнитным моментом $\mu_{\chi}$ со следующим взаимодеёствием с электромагнитным полем:
+	\begin{equation*}
+	\mathcal{L}_{int} = \cfrac{\mu_{\chi}}{2} \bar{\Psi}_1 \Sigma_{\mu\nu} \Psi_2 F^{\mu\nu} + \cfrac{\mu_{\chi}}{2} \bar{\Psi}_2 \Sigma_{\mu\nu} \Psi_1 F^{\mu\nu} 
+\end{equation*}
+где ${\Psi}_{1,2}$ --- майорановские спиноры, состояний $1$ и $2$, а $\Sigma_{\mu\nu} = \frac{i}{2}[\gamma_{\mu}\gamma_{\nu}]$.
+
+Нерелятивисткий опреатор взаимодействия с нуклоном тогда следующий:
+\begin{equation}
+	\mathcal{H} = 
+	\cfrac{Q_N e\mu_{\chi}}{2m_{\chi}} \hat{O}_1 + 
+	\cfrac{2g_N e\mu_{\chi}}{m_{N}} \hat{O}_4-
+	\cfrac{2Q_N e\mu_{\chi} m_{N} }{q^2} \hat{O}_5 -
+	\cfrac{2g_N e\mu_{\chi} m_{N}}{q^2} \hat{O}_6
+\end{equation}
+
+где $e Q_N$ --- заряд нуклона,  $g_N$ --- множитель Ланде нуклона.
+
+
+\begin{eqnarray}
+	\hat{O}_1 = 1 & 
+	\hat{O}_4 = \vec{S}_{\chi}\cdot\vec{S}_{N} \\
+	%
+	\hat{O}_5 = i\vec{S}_{\chi}\cdot \left(\cfrac{\vec{q}}{m_N} \times \vec{v}^{\perp}_{inel} \right) & 
+	\hat{O}_6 = \left(\vec{S}_{\chi} \cdot \frac{\vec{q}}{m_N}\right)\left(\vec{S}_N \cdot \frac{\vec{q}}{m_N}\right)
+\end{eqnarray}
+
+где $\vec{q} = \vec{k} - \vec{k}'$ --- переданный импульс от тёмной материи к веществу, а 
+\begin{equation}
+	\vec{v}^{\perp}_{inel} = \vec{v}^{\perp}_{el} + \cfrac{\delta}{q^2} \vec{q} = \vec{v}+\cfrac{\vec{q}}{2\mu_{N}} + \cfrac{\delta}{q^2} \vec{q}
+\end{equation}

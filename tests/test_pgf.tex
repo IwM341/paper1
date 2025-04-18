@@ -1,0 +1,24 @@
+\input{preamble.tex}
+\input{math_defs.tex}
+
+\usepackage{pgfplots}
+\begin{document}
+
+	\begin{tikzpicture}
+		\begin{axis}[
+			title = Example Plot,
+			xlabel = \(x\),
+			ylabel = {\(f(x)\)},
+			table/col sep = semicolon,
+			height = 0.2\paperheight, 
+			width = 0.8\paperwidth,
+			/pgf/number format/1000 sep={}
+		]
+		\addplot table [mark=none, x={Xcol}, y={Ycol}]{test.csv};
+		\legend{ 
+			{$f(x)$}
+		};
+		\end{axis}
+	\end{tikzpicture}
+\end{document}
+
