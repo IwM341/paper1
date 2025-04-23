@@ -2,3 +2,137 @@
 %	Сходимость схемы для неупругого случая
 %	Собственные значения матрицы рассеяния+ 
 %   независимость результатов от шага по времени.
+
+Для проверки точности численных схем, мы рассмотрели эволюцию в упругом и неупругом случае.
+
+В упругом случае мы увеличивали число бинов по энергии и смотрели, как зависит аннигиляция от числа бинов $N_E$ после термализации. 
+
+Хотя наивно схема имеет первый порядок точности, на самом деле порядок может быть и вторым.
+
+Рассмотрим уравнение эволюции:
+
+\begin{equation}
+	\deriv{f(X)}{t} = \int{S(X,X')f(X')dX'} - 	 f(X)\int{S(X',X)dX'} 
+\end{equation}
+
+Пусть $P_h$ --- проектор решения на сетку. Тогда
+\begin{equation}
+	P_h\deriv{f(X)}{t} = P_h\int{S(X,X')f(X')dX'} - 	 P_h f(X)\int{S(X',X)dX'} 
+\end{equation}
+
+\begin{equation}
+	\deriv{f_h(X)}{t} = \mu(dX)^{-1} \int{S(X,X')[f(X')-f(X)]dX'dX}
+\end{equation}
+
+После дискретизации оператор эволюции $S$ равен 
+\begin{equation}
+	S_h(X,X') = \mu(dX)^{-1} \mu(dX')^{-1} \int{S(X,X')dXdX'}
+\end{equation}
+
+Положим $S(X,X') = S(X_0,X_0') + A\Delta X + B \Delta X') + O(h^2)$. Из чего следует, что $S_h(X,X')$ = $S(X_0,X_0')$. 
+
+Далее положим, что $f(X) = f_h(X) + F_1\Delta X$
+
+Тогда 
+
+\begin{equation}
+	\deriv{f_h(X)}{t} = \mu(dX)^{-1} \int{S_h(X,X')[f_h(X')-f_h(X)]dX'dX} + O(h^2) 
+\end{equation}
+
+Получаем, что если $S(X,X')$ и $f(X)$ --- гладкие, то схема имеет 2 порядок точности по $E,L$.
+
+
+
+Для проверки сходимости в упругом случае мы нашли конечное распределение частиц тёмной материи при разных шагах решетки и вычислили среднюю энергию и темп аннигиляции на этих распределениях. В упругом случае мы рассматривали зависимость от шага по энергии $h_e$, который мы уменьшали в 2 раза. Поскольку термальное распределение по моменту импульса не зависит от $L$ и схема по $h_L$ не имеет ошибки, мы рассматривали зависимость только от $h_e$. 
+
+
+
+\begin{figure}[!h]
+	\centering
+	\begin{tikzpicture}
+		\begin{axis}[
+			at={(0,0)}, % Позиция (можно регулировать)
+			width=0.5\textwidth,
+			height=0.4\textwidth,
+			table/col sep = semicolon,
+			xmin=0,
+			xlabel = { \(h_e/{T_{\odot}} \)},
+			ylabel = {\(\avarage{E}/\avarage{E_{1/8}}\)}
+			]
+			\addplot table [only marks, scatter,x={he}, y={E}]{tables/Conv10.csv};
+			\addplot [no marks,domain=0:1.7] {0.999 + 0.02*x^2};
+		\end{axis}
+		\begin{axis}[
+			at={(0.5\textwidth,0)}, % Позиция (можно регулировать)
+			width=0.5\textwidth,
+			height=0.4\textwidth,
+			table/col sep = semicolon,
+			xmin=0,
+			xlabel = { \(h_e/{T_{\odot}} \)},
+			ylabel = {\(A/A_{1/8}\)}
+			]
+			\addplot table [x={he}, y={A}]{tables/Conv10.csv};
+			\addplot [no marks,domain=0:1.7] {1.003 - 0.048*x^2};
+		\end{axis}
+	\end{tikzpicture}
+	\caption{Зависимость средней энергии $\avarage{E}$ и аннигиляции $A$ при $m = 10 \text{GeV}$. Шаг по энергии указан в единицах температуры Солнца в центре $T_{\odot}$. Значения нормированны на значениях при минимальном шаге.}
+	\label{plot:ConvEl10}
+\end{figure}
+
+В неупругом случае мы рассматривали сетки с разбиением по $E$ и $L$ на $50$,$100$ и $200$ равномерных отрезков.
+
+
+
+
+\begin{figure}[!h]
+	\centering
+	\begin{tikzpicture}
+		\begin{axis}[
+			at={(0,0)}, % Позиция (можно регулировать)
+			width=0.5\textwidth,
+			height=0.4\textwidth,
+			table/col sep = semicolon,
+			xmin=0,
+			xlabel = { \(h_e (1 = E_{max}/50) \)},
+			ylabel = {\(A/A_{1/4,1/4}\)},
+			legend style={
+				at = {(0.3,0.8)},
+				anchor=north
+			}
+			]
+			\addplot table [x={h}, y={nl0}]{tables/ConvInel_E.csv};
+			\addplot table [x={h}, y={nl1}]{tables/ConvInel_E.csv};
+			\addplot table [x={h}, y={nl2}]{tables/ConvInel_E.csv};
+			\legend{ 
+				{$h_L = 1\ \ \ $},
+				{$h_L = 1/2$},
+				{$h_L = 1/4$}
+			};
+		\end{axis}
+		\begin{axis}[
+			at={(0.5\textwidth,0)}, % Позиция (можно регулировать)
+			width=0.5\textwidth,
+			height=0.4\textwidth,
+			table/col sep = semicolon,
+			xmin=0,
+			xlabel = { \(h_L (1 = L_{max}/50) \)},
+			ylabel = {\(A/A_{1/4,1/4}\)},
+			legend style={
+				at = {(0.2,0.98)},
+				anchor=north
+			}
+			]
+			\addplot table [x={h}, y={ne0}]{tables/ConvInel_L.csv};
+			\addplot table [x={h}, y={ne1}]{tables/ConvInel_L.csv};
+			\addplot table [x={h}, y={ne2}]{tables/ConvInel_L.csv};
+			\legend{ 
+				{$h_e = 1\ \ \ $},
+				{$h_e = 1/2$},
+				{$h_e = 1/4$}
+			};
+		\end{axis}
+	\end{tikzpicture}
+	\caption{Зависимость средней энергии $\avarage{E}$ и аннигиляции $A$ при $m = 10 \text{GeV}$. Шаг по энергии указан в единицах температуры Солнца в центре $T_{\odot}$. Значения нормированны на значениях при минимальном шаге. $m_{\chi} = 100 \text{GeV}$, $\delta= 100 \text{keV}$}
+	\label{plot:ConvInel100}
+\end{figure}
+

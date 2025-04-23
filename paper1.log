@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.1.24)  16 APR 2025 17:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.1.24)  23 APR 2025 17:07
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1253,21 +1253,15 @@ Overfull \hbox (0.88187pt too wide) in paragraph at lines 25--26
 <images/Capt100_100.png, id=118, 944.93025pt x 466.1415pt>
 File: images/Capt100_100.png Graphic file (type png)
 <use images/Capt100_100.png>
-Package pdftex.def Info: images/Capt100_100.png  used on input line 31.
+Package pdftex.def Info: images/Capt100_100.png  used on input line 32.
 (pdftex.def)             Requested size: 338.58632pt x 167.0284pt.
 <images/Dout100_100.png, id=120, 1073.2095pt x 533.5935pt>
 File: images/Dout100_100.png Graphic file (type png)
 <use images/Dout100_100.png>
-Package pdftex.def Info: images/Dout100_100.png  used on input line 39.
+Package pdftex.def Info: images/Dout100_100.png  used on input line 40.
 (pdftex.def)             Requested size: 338.58632pt x 168.34338pt.
 PGFPlots: reading {tables/CaptDout100_100and50.csv}
 
-
-Package pgfplots Warning: Table 'tables/CaptDout100_100and50.csv' has an empty 
-column name; replacing it by '0'' on input line 63.
-
- [warning /pgfplots/warning/empty column name]
-PGFPlots: reading {tables/CaptDout100_100and50.csv}
 
 Package pgfplots Warning: Table 'tables/CaptDout100_100and50.csv' has an empty 
 column name; replacing it by '0'' on input line 64.
@@ -1285,45 +1279,51 @@ Package pgfplots Warning: Table 'tables/CaptDout100_100and50.csv' has an empty
 column name; replacing it by '0'' on input line 66.
 
  [warning /pgfplots/warning/empty column name]
+PGFPlots: reading {tables/CaptDout100_100and50.csv}
+
+Package pgfplots Warning: Table 'tables/CaptDout100_100and50.csv' has an empty 
+column name; replacing it by '0'' on input line 67.
+
+ [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {tables/Term100.csv}
 
 Package pgfplots Warning: Table 'tables/Term100.csv' has an empty column name; 
-replacing it by '0'' on input line 67.
+replacing it by '0'' on input line 68.
 
  [warning /pgfplots/warning/empty column name]
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (8.29784pt too wide) in paragraph at lines 76--77
+Overfull \hbox (8.29784pt too wide) in paragraph at lines 77--78
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-Package pgfplots info on input line 96: Using 'lua backend=false' for axis: ymo
+Package pgfplots info on input line 97: Using 'lua backend=false' for axis: ymo
 de=log unsupported (yet).
 PGFPlots: reading {tables/CaptAnn_noAnn100.csv}
 
 Package pgfplots Warning: Table 'tables/CaptAnn_noAnn100.csv' has an empty colu
-mn name; replacing it by '0'' on input line 97.
+mn name; replacing it by '0'' on input line 98.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {tables/CaptAnn_noAnn100.csv}
 
 Package pgfplots Warning: Table 'tables/CaptAnn_noAnn100.csv' has an empty colu
-mn name; replacing it by '0'' on input line 99.
+mn name; replacing it by '0'' on input line 100.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {tables/Ann_withAnn100.csv}
 
 Package pgfplots Warning: Table 'tables/Ann_withAnn100.csv' has an empty column
- name; replacing it by '0'' on input line 101.
+ name; replacing it by '0'' on input line 102.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {tables/CaptAnn_noAnn100.csv}
 
 Package pgfplots Warning: Table 'tables/CaptAnn_noAnn100.csv' has an empty colu
-mn name; replacing it by '0'' on input line 103.
+mn name; replacing it by '0'' on input line 104.
 
  [warning /pgfplots/warning/empty column name]
 Missing character: There is no ; in font nullfont!
@@ -1331,34 +1331,90 @@ Missing character: There is no ; in font nullfont!
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 ) [5 <./images/Capt100_100.png> <./images/Dout100_100.png>]
-(src/CompDetails.tex) [6] (paper1.aux)
+(src/CompDetails.tex [6]) (src/Conv.tex [7]
+PGFPlots: reading {tables/Conv10.csv}
+
+
+Package pgfplots Warning: Table 'tables/Conv10.csv' has an empty column name; r
+eplacing it by '0'' on input line 62.
+
+ [warning /pgfplots/warning/empty column name]
+PGFPlots: reading {tables/Conv10.csv}
+
+Package pgfplots Warning: Table 'tables/Conv10.csv' has an empty column name; r
+eplacing it by '0'' on input line 74.
+
+ [warning /pgfplots/warning/empty column name]
+PGFPlots: reading {tables/ConvInel_E.csv}
+
+Package pgfplots Warning: Table 'tables/ConvInel_E.csv' has an empty column nam
+e; replacing it by '0'' on input line 103.
+
+ [warning /pgfplots/warning/empty column name]
+PGFPlots: reading {tables/ConvInel_E.csv}
+
+Package pgfplots Warning: Table 'tables/ConvInel_E.csv' has an empty column nam
+e; replacing it by '0'' on input line 104.
+
+ [warning /pgfplots/warning/empty column name]
+PGFPlots: reading {tables/ConvInel_E.csv}
+
+Package pgfplots Warning: Table 'tables/ConvInel_E.csv' has an empty column nam
+e; replacing it by '0'' on input line 105.
+
+ [warning /pgfplots/warning/empty column name]
+Missing character: There is no ; in font nullfont!
+PGFPlots: reading {tables/ConvInel_L.csv}
+
+Package pgfplots Warning: Table 'tables/ConvInel_L.csv' has an empty column nam
+e; replacing it by '0'' on input line 125.
+
+ [warning /pgfplots/warning/empty column name]
+PGFPlots: reading {tables/ConvInel_L.csv}
+
+Package pgfplots Warning: Table 'tables/ConvInel_L.csv' has an empty column nam
+e; replacing it by '0'' on input line 126.
+
+ [warning /pgfplots/warning/empty column name]
+PGFPlots: reading {tables/ConvInel_L.csv}
+
+Package pgfplots Warning: Table 'tables/ConvInel_L.csv' has an empty column nam
+e; replacing it by '0'' on input line 127.
+
+ [warning /pgfplots/warning/empty column name]
+Missing character: There is no ; in font nullfont!
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [8] [9] (paper1.aux)
 Package rerunfilecheck Info: File `paper1.out' has not changed.
 (rerunfilecheck)             Checksum: F9E02C4C45F51BADACA259461BAF255E;1421.
  ) 
 Here is how much of TeX's memory you used:
- 39052 strings out of 475385
- 920888 string characters out of 2790968
- 1500402 words of memory out of 3000000
- 59729 multiletter control sequences out of 15000+600000
+ 39196 strings out of 475385
+ 923897 string characters out of 2790968
+ 1508379 words of memory out of 3000000
+ 59846 multiletter control sequences out of 15000+600000
  477428 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 81i,19n,93p,2191b,2204s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 81i,19n,93p,2191b,2320s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\MainUser\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lar
 m0700.pk> <C:\Users\MainUser\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi
 600\labx1200.pk> <C:\Users\MainUser\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-
 t2a/dpi600\larm1000.pk> <C:\Users\MainUser\AppData\Local\MiKTeX\fonts/pk/ljfour
 /lh/lh-t2a/dpi600\labx1000.pk> <C:\Users\MainUser\AppData\Local\MiKTeX\fonts/pk
 /ljfour/lh/lh-t2a/dpi600\labx1440.pk><D:/Soft/MikTex/fonts/type1/public/amsfont
-s/cm/cmex10.pfb><D:/Soft/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/S
-oft/MikTex/fonts/type1/public/amsfonts/cm/cmmi5.pfb><D:/Soft/MikTex/fonts/type1
-/public/amsfonts/cm/cmmi7.pfb><D:/Soft/MikTex/fonts/type1/public/amsfonts/cm/cm
-r10.pfb><D:/Soft/MikTex/fonts/type1/public/amsfonts/cm/cmr5.pfb><D:/Soft/MikTex
-/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/Soft/MikTex/fonts/type1/public/ams
-fonts/cm/cmsy10.pfb><D:/Soft/MikTex/fonts/type1/public/amsfonts/cm/cmsy5.pfb><D
-:/Soft/MikTex/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on paper1.pdf (6 pages, 1371327 bytes).
+s/cm/cmex10.pfb><D:/Soft/MikTex/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><
+D:/Soft/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Soft/MikTex/fonts/
+type1/public/amsfonts/cm/cmmi5.pfb><D:/Soft/MikTex/fonts/type1/public/amsfonts/
+cm/cmmi7.pfb><D:/Soft/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Soft/
+MikTex/fonts/type1/public/amsfonts/cm/cmr5.pfb><D:/Soft/MikTex/fonts/type1/publ
+ic/amsfonts/cm/cmr7.pfb><D:/Soft/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.p
+fb><D:/Soft/MikTex/fonts/type1/public/amsfonts/cm/cmsy5.pfb><D:/Soft/MikTex/fon
+ts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on paper1.pdf (9 pages, 1404483 bytes).
 PDF statistics:
- 423 PDF objects out of 1000 (max. 8388607)
- 46 named destinations out of 1000 (max. 500000)
+ 470 PDF objects out of 1000 (max. 8388607)
+ 64 named destinations out of 1000 (max. 500000)
  111 words of extra memory for PDF output out of 10000 (max. 10000000)
 
