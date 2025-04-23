@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.1.24)  23 APR 2025 17:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.1.24)  23 APR 2025 17:53
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1330,8 +1330,12 @@ Missing character: There is no ; in font nullfont!
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [5 <./images/Capt100_100.png> <./images/Dout100_100.png>]
-(src/CompDetails.tex [6]) (src/Conv.tex [7]
+
+LaTeX Warning: Command \CYRS invalid in math mode on input line 119.
+
+Missing character: There is no Ñ in font cmr10!
+[5 <./images/Capt100_100.png> <./images/Dout100_100.png>]) (src/CompDetails.tex
+[6]) (src/Conv.tex [7]
 PGFPlots: reading {tables/Conv10.csv}
 
 
@@ -1391,9 +1395,9 @@ Package rerunfilecheck Info: File `paper1.out' has not changed.
 (rerunfilecheck)             Checksum: F9E02C4C45F51BADACA259461BAF255E;1421.
  ) 
 Here is how much of TeX's memory you used:
- 39196 strings out of 475385
- 923897 string characters out of 2790968
- 1508379 words of memory out of 3000000
+ 39198 strings out of 475385
+ 923923 string characters out of 2790968
+ 1509379 words of memory out of 3000000
  59846 multiletter control sequences out of 15000+600000
  477428 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1412,9 +1416,9 @@ MikTex/fonts/type1/public/amsfonts/cm/cmr5.pfb><D:/Soft/MikTex/fonts/type1/publ
 ic/amsfonts/cm/cmr7.pfb><D:/Soft/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.p
 fb><D:/Soft/MikTex/fonts/type1/public/amsfonts/cm/cmsy5.pfb><D:/Soft/MikTex/fon
 ts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on paper1.pdf (9 pages, 1404483 bytes).
+Output written on paper1.pdf (9 pages, 1406375 bytes).
 PDF statistics:
- 470 PDF objects out of 1000 (max. 8388607)
- 64 named destinations out of 1000 (max. 500000)
+ 473 PDF objects out of 1000 (max. 8388607)
+ 66 named destinations out of 1000 (max. 500000)
  111 words of extra memory for PDF output out of 10000 (max. 10000000)
 
