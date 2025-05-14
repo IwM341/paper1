@@ -5,24 +5,9 @@
 %	 3) Коэффициент аннигиляции a как функция от delta %		и m
 %	 4) Графики в плоскости M,delta где есть равновесие	
 %    
+В нащем численном моделировании мы использовали неравномерную решетку: интервал по $l$ мы разбивали на $90$ равных частей, а по $E$ мы увеличивали плотность разбиения при мальеньких $E$.
 
-Изобразим распределение частиц по энергии и моменту импульса (на единицу массы частицы). Мы будем отсчитывать энергию и момент в безразмерных единицах. Безразмерные энергия и момент импульса соответственно равны:
-\begin{equation}
-	\begin{split}
-		E = \cfrac{\frac{1}{2} v_{\chi}^2 + \phi(r)}
-		{\frac{1}{2} v_{esc}^2} \\
-		L = \cfrac{|\vec{r} \times \vec{v}|}
-		{R_{\odot} v_{esc}}
-	\end{split}
-	\label{eq:dimentionless}
-\end{equation}
-
-Еще одна величина --- приведенный момент импульса.
-\begin{equation}
-	l = \cfrac{L}{L_{max}(E)}
-\end{equation}
-
-где $L_{max}(E)$ --- максимально возможный момент импулься траектории при данной энергии (не учитываются траектории, которые находятся вне Солнца).
+Изобразим распределение частиц по энергии и моменту импульса (на единицу массы частицы). 
 
 Мы будем рассматривать распределение частиц по энергтт и приведеному импульсу $f(E,l) = \frac{dN}{dE dl}$.
 
@@ -115,6 +100,44 @@
 \end{figure}
 
 Как можно заметить, если включить в уравнение эволюции аннигиляцию, то результат совпадает с оценкой (\ref{eq:AnnNtherm}). 
+
+
+При больших $\delta$ уменьшается как величина захвата так и коэффициент аннигиляции. При $\delta$ ниже чем $\delta(m_{\chi})$, наступает термализация в уравнении (\ref{eq:Balance}), т.е. темп аннигиляции равен темпу захвата. Изобразим в плоскости $(m_{\chi} - \delta$ границы областей, при которых наступает или не наступает термализация при разных $\sigma_{\chi p}$. V
+
+
+\begin{figure}[!h]
+	\centering
+	\begin{tikzpicture}
+		\begin{axis}[
+			%title = {Распределение по $r/R_{\odot}$},
+			no markers,
+			xlabel = {$\delta$, $\text{keV}$},
+			ylabel = {M, $\text{GeV}$},
+			ymode=log,
+			table/col sep = semicolon,
+			height = 0.3\paperheight, 
+			width = 0.6\paperwidth,
+			/pgf/number format/1000 sep={}
+			]
+			\addplot table [mark=none, x={d_40}, y={M}]{tables/DeltaM_SL.csv};
+			\addplot table [mark=none, x={d_41}, y={M}]{tables/DeltaM_SL.csv};
+			\addplot table [mark=none, x={d_42}, y={M}]{tables/DeltaM_SL.csv};
+			\addplot table [mark=none, x={d_43}, y={M}]{tables/DeltaM_SL.csv};
+			\addplot table [mark=none, x={d_44}, y={M}]{tables/DeltaM_SL.csv};
+			\legend{ 
+				{$\sigma_{\chi p} = 10^{-40}$},
+				{$\sigma_{\chi p} = 10^{-41}$},
+				{$\sigma_{\chi p} = 10^{-42}$},
+				{$\sigma_{\chi p} = 10^{-43}$},
+				{$\sigma_{\chi p} = 10^{-44}$}
+			};
+		\end{axis}
+	\end{tikzpicture}
+	\caption{}
+	\label{plot:MDelta_SL}
+\end{figure}
+
+
 
 Обозначим величину $1/(aT_{\odot}^2)$ как $С_a(\avarage{\sigma_a v})$. Тогда для того чтобы сдлать ограничения для сечения на протоне $\sigma_{\chi p}$ исходя из ограничения на темп аннигиляции $\Gamma$ нужно решить (\ref{eq:AnnNtherm}) и найти темп захвата.
 
