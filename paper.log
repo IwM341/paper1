@@ -1,12 +1,11 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.1.24)  16 MAY 2025 12:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.1.24)  14 MAY 2025 17:54
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
-**./paper1.tex
-(paper1.tex
+**./paper.tex
+(paper.tex
 LaTeX2e <2022-06-01> patch level 5
-L3 programming layer <2022-09-28> (preamble.tex
-(D:\Soft\MikTex\tex/latex/base\article.cls
+L3 programming layer <2022-09-28> (D:\Soft\MikTex\tex/latex/base\article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
 (D:\Soft\MikTex\tex/latex/base\size10.clo
 File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
@@ -292,10 +291,6 @@ Package: inputenc 2021/02/14 v1.3d Input encoding file
 (D:\Soft\MikTex\tex/latex/tools\indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
-(D:\Soft\MikTex\tex/latex/url\url.sty
-\Urlmuskip=\muskip16
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
 (D:\Soft\MikTex\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2022/04/08 v2.17n AMS math features
 \@mathmargin=\skip49
@@ -343,7 +338,7 @@ LaTeX Info: Redefining \smash on input line 940.
 LaTeX Info: Redefining \relbar on input line 970.
 LaTeX Info: Redefining \Relbar on input line 971.
 \c@MaxMatrixCols=\count267
-\dotsspace@=\muskip17
+\dotsspace@=\muskip16
 \c@parentequation=\count268
 \dspbrk@lvl=\count269
 \tag@help=\toks19
@@ -527,6 +522,11 @@ Package hyperref Info: Backreferencing OFF on input line 4182.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4410.
 \c@Hy@tempcnt=\count281
+
+(D:\Soft\MikTex\tex/latex/url\url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
 LaTeX Info: Redefining \url on input line 4748.
 \XeTeXLinkMargin=\dimen164
 
@@ -583,25 +583,9 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 (D:\Soft\MikTex\tex/latex/was\icomma.sty
 Package: icomma 2002/03/10 v2.0 (WaS)
 )
-(D:\Soft\MikTex\tex/latex/physics\physics.sty
-Package: physics 
-
-(D:\Soft\MikTex\tex/latex/l3packages/xparse\xparse.sty
-(D:\Soft\MikTex\tex/latex/l3kernel\expl3.sty
-Package: expl3 2022-09-28 L3 programming layer (loader) 
-
-(D:\Soft\MikTex\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count288
-\l__pdf_internal_box=\box54
-))
-Package: xparse 2022-06-22 L3 Experimental document command parser
-))
-(D:\Soft\MikTex\tex/latex/carlisle\slashed.sty
-Package: slashed 1997/01/16 v0.01 Feynman Slashed Character Notation (DPC)
-)
-(D:\Soft\MikTex\tex/latex/pgf/frontendlayer\tikz.sty
-(D:\Soft\MikTex\tex/latex/pgf/basiclayer\pgf.sty
+(D:\Soft\MikTex\tex/latex/nicematrix\NiceMatrix.sty
+(D:\Soft\MikTex\tex/latex/pgf/basiclayer\pgfcore.sty
+(D:\Soft\MikTex\tex/latex/pgf/systemlayer\pgfsys.sty
 (D:\Soft\MikTex\tex/latex/pgf/utilities\pgfrcs.sty
 (D:\Soft\MikTex\tex/generic/pgf/utilities\pgfutil-common.tex
 \pgfutil@everybye=\toks30
@@ -610,16 +594,12 @@ Package: slashed 1997/01/16 v0.01 Feynman Slashed Character Notation (DPC)
 
 (D:\Soft\MikTex\tex/generic/pgf/utilities\pgfutil-common-lists.tex))
 (D:\Soft\MikTex\tex/generic/pgf/utilities\pgfutil-latex.def
-\pgfutil@abb=\box55
+\pgfutil@abb=\box54
 )
 (D:\Soft\MikTex\tex/generic/pgf/utilities\pgfrcs.code.tex
 (D:\Soft\MikTex\tex/generic/pgf\pgf.revision.tex)
 Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
 ))
-Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
-
-(D:\Soft\MikTex\tex/latex/pgf/basiclayer\pgfcore.sty
-(D:\Soft\MikTex\tex/latex/pgf/systemlayer\pgfsys.sty
 (D:\Soft\MikTex\tex/generic/pgf/systemlayer\pgfsys.code.tex
 Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
 
@@ -642,14 +622,14 @@ Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@yd=\dimen178
 \w@pgf@writea=\write3
 \r@pgf@reada=\read3
-\c@pgf@counta=\count289
-\c@pgf@countb=\count290
-\c@pgf@countc=\count291
-\c@pgf@countd=\count292
+\c@pgf@counta=\count288
+\c@pgf@countb=\count289
+\c@pgf@countc=\count290
+\c@pgf@countd=\count291
 \t@pgf@toka=\toks34
 \t@pgf@tokb=\toks35
 \t@pgf@tokc=\toks36
-\pgf@sys@id@count=\count293
+\pgf@sys@id@count=\count292
 
 (D:\Soft\MikTex\tex/generic/pgf/systemlayer\pgf.cfg
 File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
@@ -664,8 +644,8 @@ File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
 )))
 (D:\Soft\MikTex\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfsyssoftpath@smallbuffer@items=\count294
-\pgfsyssoftpath@bigbuffer@items=\count295
+\pgfsyssoftpath@smallbuffer@items=\count293
+\pgfsyssoftpath@bigbuffer@items=\count294
 )
 (D:\Soft\MikTex\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
@@ -697,8 +677,8 @@ Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
 (D:\Soft\MikTex\tex/generic/pgf/math\pgfmathutil.code.tex)
 (D:\Soft\MikTex\tex/generic/pgf/math\pgfmathparser.code.tex
 \pgfmath@dimen=\dimen179
-\pgfmath@count=\count296
-\pgfmath@box=\box56
+\pgfmath@count=\count295
+\pgfmath@box=\box55
 \pgfmath@toks=\toks37
 \pgfmath@stack@operand=\toks38
 \pgfmath@stack@operation=\toks39
@@ -713,7 +693,7 @@ Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
 (D:\Soft\MikTex\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex)
 (D:\Soft\MikTex\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.t
 ex))) (D:\Soft\MikTex\tex/generic/pgf/math\pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count297
+\c@pgfmathroundto@lastzeros=\count296
 ))
 (D:\Soft\MikTex\tex/generic/pgf/math\pgfint.code.tex)
 (D:\Soft\MikTex\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
@@ -745,10 +725,10 @@ File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
 (D:\Soft\MikTex\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfpic=\box57
-\pgf@hbox=\box58
-\pgf@layerbox@main=\box59
-\pgf@picture@serial@count=\count298
+\pgfpic=\box56
+\pgf@hbox=\box57
+\pgf@layerbox@main=\box58
+\pgf@picture@serial@count=\count297
 )
 (D:\Soft\MikTex\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
@@ -776,15 +756,15 @@ File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (D:\Soft\MikTex\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@max=\dimen259
-\pgf@sys@shading@range@num=\count299
-\pgf@shadingcount=\count300
+\pgf@sys@shading@range@num=\count298
+\pgf@shadingcount=\count299
 )
 (D:\Soft\MikTex\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 
 (D:\Soft\MikTex\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfexternal@startupbox=\box60
+\pgfexternal@startupbox=\box59
 ))
 (D:\Soft\MikTex\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
@@ -800,15 +780,116 @@ File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )))
 (D:\Soft\MikTex\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfnodeparttextbox=\box61
+\pgfnodeparttextbox=\box60
 )
+(D:\Soft\MikTex\tex/latex/l3packages/l3keys2e\l3keys2e.sty
+(D:\Soft\MikTex\tex/latex/l3kernel\expl3.sty
+Package: expl3 2022-09-28 L3 programming layer (loader) 
+
+(D:\Soft\MikTex\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count300
+\l__pdf_internal_box=\box61
+))
+Package: l3keys2e 2022-06-22 LaTeX2e option processing using LaTeX3 keys
+)
+
+LaTeX Warning: You have requested package `NiceMatrix',
+               but the package provides `nicematrix'.
+
+Package: nicematrix 2022/12/12 v6.13e Enhanced arrays with the help of PGF/TikZ
+
+(D:\Soft\MikTex\tex/latex/tools\array.sty
+Package: array 2022/03/10 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen260
+\ar@mcellbox=\box62
+\extrarowheight=\dimen261
+\NC@list=\toks40
+\extratabsurround=\skip60
+\backup@length=\skip61
+\ar@cellbox=\box63
+)
+\g__nicematrix_env_int=\count301
+\g__nicematrix_NiceMatrixBlock_int=\count302
+\l__nicematrix_note_in_caption_int=\count303
+\l__nicematrix_columns_width_dim=\dimen262
+\l__nicematrix_col_width_dim=\dimen263
+\g__nicematrix_row_total_int=\count304
+\g__nicematrix_col_total_int=\count305
+\g__nicematrix_last_row_node_int=\count306
+\l__nicematrix_key_nb_rows_int=\count307
+\g__nicematrix_blocks_wd_dim=\dimen264
+\g__nicematrix_blocks_ht_dim=\dimen265
+\g__nicematrix_blocks_dp_dim=\dimen266
+\l__nicematrix_width_dim=\dimen267
+\l__nicematrix_tabular_width_dim=\dimen268
+\l__nicematrix_rule_width_dim=\dimen269
+\l__nicematrix_old_iRow_int=\count308
+\l__nicematrix_old_jCol_int=\count309
+\g__nicematrix_total_X_weight_int=\count310
+\l__nicematrix_X_columns_dim=\dimen270
+\l__nicematrix_x_initial_dim=\dimen271
+\l__nicematrix_y_initial_dim=\dimen272
+\l__nicematrix_x_final_dim=\dimen273
+\l__nicematrix_y_final_dim=\dimen274
+\l__nicematrix_tmpc_dim=\dimen275
+\l__nicematrix_tmpd_dim=\dimen276
+\g__nicematrix_width_last_col_dim=\dimen277
+\g__nicematrix_width_first_col_dim=\dimen278
+\l__nicematrix_row_min_int=\count311
+\l__nicematrix_row_max_int=\count312
+\l__nicematrix_col_min_int=\count313
+\l__nicematrix_col_max_int=\count314
+\g__nicematrix_static_num_of_col_int=\count315
+\l__nicematrix_rounded_corners_dim=\dimen279
+\l__nicematrix_line_width_dim=\dimen280
+\g__nicematrix_block_box_int=\count316
+\l__nicematrix_submatrix_extra_height_dim=\dimen281
+\l__nicematrix_submatrix_left_xshift_dim=\dimen282
+\l__nicematrix_submatrix_right_xshift_dim=\dimen283
+\l__nicematrix_first_row_int=\count317
+\l__nicematrix_first_col_int=\count318
+\l__nicematrix_last_row_int=\count319
+\l__nicematrix_last_col_int=\count320
+\c@tabularnote=\count321
+\c@nicematrix_draft=\count322
+\l__nicematrix_cell_space_top_limit_dim=\dimen284
+\l__nicematrix_cell_space_bottom_limit_dim=\dimen285
+\l__nicematrix_xdots_inter_dim=\dimen286
+\l__nicematrix_xdots_shorten_start_dim=\dimen287
+\l__nicematrix_xdots_shorten_end_dim=\dimen288
+\l__nicematrix_xdots_radius_dim=\dimen289
+\l__nicematrix_notes_above_space_dim=\dimen290
+\l__nicematrix_left_margin_dim=\dimen291
+\l__nicematrix_right_margin_dim=\dimen292
+\l__nicematrix_extra_left_margin_dim=\dimen293
+\l__nicematrix_extra_right_margin_dim=\dimen294
+\c__nicematrix_max_l_dim=\dimen295
+\l__nicematrix_position_int=\count323
+\l__nicematrix_start_int=\count324
+\l__nicematrix_multiplicity_int=\count325
+\l__nicematrix_brace_yshift_dim=\dimen296
+)
+(D:\Soft\MikTex\tex/latex/physics\physics.sty
+Package: physics 
+
+(D:\Soft\MikTex\tex/latex/l3packages/xparse\xparse.sty
+Package: xparse 2022-06-22 L3 Experimental document command parser
+))
+(D:\Soft\MikTex\tex/latex/carlisle\slashed.sty
+Package: slashed 1997/01/16 v0.01 Feynman Slashed Character Notation (DPC)
+)
+(D:\Soft\MikTex\tex/latex/pgf/frontendlayer\tikz.sty
+(D:\Soft\MikTex\tex/latex/pgf/basiclayer\pgf.sty
+Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
+
 (D:\Soft\MikTex\tex/generic/pgf/modules\pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
 (D:\Soft\MikTex\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@nodesepstart=\dimen260
-\pgf@nodesepend=\dimen261
+\pgf@nodesepstart=\dimen297
+\pgf@nodesepend=\dimen298
 )
 (D:\Soft\MikTex\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
@@ -822,43 +903,43 @@ Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
 Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
 
 (D:\Soft\MikTex\tex/generic/pgf/math\pgfmath.code.tex)
-\pgffor@iter=\dimen262
-\pgffor@skip=\dimen263
-\pgffor@stack=\toks40
-\pgffor@toks=\toks41
+\pgffor@iter=\dimen299
+\pgffor@skip=\dimen300
+\pgffor@stack=\toks41
+\pgffor@toks=\toks42
 ))
 (D:\Soft\MikTex\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
 Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
 
 (D:\Soft\MikTex\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@plot@mark@count=\count301
-\pgfplotmarksize=\dimen264
+\pgf@plot@mark@count=\count326
+\pgfplotmarksize=\dimen301
 )
-\tikz@lastx=\dimen265
-\tikz@lasty=\dimen266
-\tikz@lastxsaved=\dimen267
-\tikz@lastysaved=\dimen268
-\tikz@lastmovetox=\dimen269
-\tikz@lastmovetoy=\dimen270
-\tikzleveldistance=\dimen271
-\tikzsiblingdistance=\dimen272
-\tikz@figbox=\box62
-\tikz@figbox@bg=\box63
-\tikz@tempbox=\box64
-\tikz@tempbox@bg=\box65
-\tikztreelevel=\count302
-\tikznumberofchildren=\count303
-\tikznumberofcurrentchild=\count304
-\tikz@fig@count=\count305
+\tikz@lastx=\dimen302
+\tikz@lasty=\dimen303
+\tikz@lastxsaved=\dimen304
+\tikz@lastysaved=\dimen305
+\tikz@lastmovetox=\dimen306
+\tikz@lastmovetoy=\dimen307
+\tikzleveldistance=\dimen308
+\tikzsiblingdistance=\dimen309
+\tikz@figbox=\box64
+\tikz@figbox@bg=\box65
+\tikz@tempbox=\box66
+\tikz@tempbox@bg=\box67
+\tikztreelevel=\count327
+\tikznumberofchildren=\count328
+\tikznumberofcurrentchild=\count329
+\tikz@fig@count=\count330
 
 (D:\Soft\MikTex\tex/generic/pgf/modules\pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfmatrixcurrentrow=\count306
-\pgfmatrixcurrentcolumn=\count307
-\pgf@matrix@numberofcolumns=\count308
+\pgfmatrixcurrentrow=\count331
+\pgfmatrixcurrentcolumn=\count332
+\pgf@matrix@numberofcolumns=\count333
 )
-\tikz@expandcount=\count309
+\tikz@expandcount=\count334
 
 (D:\Soft\MikTex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths
 .code.tex
@@ -866,8 +947,8 @@ File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ))) (D:\Soft\MikTex\tex/latex/feynmf\feynmp.sty
 Package: feynmp 1996/12/02 v1.08 LaTeX/MetaPost Feynman Diagram Package (ohl)
 \@outfmf=\write4
-\fmfbuf@=\toks42
-\c@fmfgraph=\count310
+\fmfbuf@=\toks43
+\c@fmfgraph=\count335
 )
 (D:\Soft\MikTex\tex/latex/tikz-feynman\tikz-feynman.sty
 Package: tikz-feynman 2016/02/05v1.1.0Feynman diagrams with TikZ
@@ -877,16 +958,16 @@ Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 )
 (D:\Soft\MikTex\tex/latex/pgfopts\pgfopts.sty
 Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
-\pgfopts@list@add@a@toks=\toks43
-\pgfopts@list@add@b@toks=\toks44
+\pgfopts@list@add@a@toks=\toks44
+\pgfopts@list@add@b@toks=\toks45
 )
 (D:\Soft\MikTex\tex/latex/tikz-feynman\tikzlibraryfeynman.code.tex
 (D:\Soft\MikTex\tex/generic/pgf/libraries\pgflibraryarrows.meta.code.tex
 File: pgflibraryarrows.meta.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfarrowinset=\dimen273
-\pgfarrowlength=\dimen274
-\pgfarrowwidth=\dimen275
-\pgfarrowlinewidth=\dimen276
+\pgfarrowinset=\dimen310
+\pgfarrowlength=\dimen311
+\pgfarrowwidth=\dimen312
+\pgfarrowlinewidth=\dimen313
 )
 (D:\Soft\MikTex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarycalc.co
 de.tex
@@ -895,16 +976,16 @@ File: tikzlibrarycalc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (D:\Soft\MikTex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorat
 ions.code.tex
 (D:\Soft\MikTex\tex/generic/pgf/modules\pgfmoduledecorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen277
-\pgfdecoratedremainingdistance=\dimen278
-\pgfdecoratedinputsegmentcompleteddistance=\dimen279
-\pgfdecoratedinputsegmentremainingdistance=\dimen280
-\pgf@decorate@distancetomove=\dimen281
-\pgf@decorate@repeatstate=\count311
-\pgfdecorationsegmentamplitude=\dimen282
-\pgfdecorationsegmentlength=\dimen283
+\pgfdecoratedcompleteddistance=\dimen314
+\pgfdecoratedremainingdistance=\dimen315
+\pgfdecoratedinputsegmentcompleteddistance=\dimen316
+\pgfdecoratedinputsegmentremainingdistance=\dimen317
+\pgf@decorate@distancetomove=\dimen318
+\pgf@decorate@repeatstate=\count336
+\pgfdecorationsegmentamplitude=\dimen319
+\pgfdecorationsegmentlength=\dimen320
 )
-\tikz@lib@dec@box=\box66
+\tikz@lib@dec@box=\box68
 )
 (D:\Soft\MikTex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorat
 ions.markings.code.tex
@@ -921,8 +1002,8 @@ hreplacing.code.tex))
 (D:\Soft\MikTex\tex/generic/pgf/frontendlayer/tikz/libraries/graphs\tikzlibrary
 graphs.code.tex
 File: tikzlibrarygraphs.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\tikz@lib@auto@number=\count312
-\tikz@qnode@count=\count313
+\tikz@lib@auto@number=\count337
+\tikz@qnode@count=\count338
 )
 (D:\Soft\MikTex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarypattern
 s.code.tex
@@ -949,12 +1030,12 @@ Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
 
 (D:\Soft\MikTex\tex/generic/pgfplots\pgfplots.code.tex
 (D:\Soft\MikTex\tex/generic/pgfplots\pgfplotscore.code.tex
-\t@pgfplots@toka=\toks45
-\t@pgfplots@tokb=\toks46
-\t@pgfplots@tokc=\toks47
-\pgfplots@tmpa=\dimen284
-\c@pgfplots@coordindex=\count314
-\c@pgfplots@scanlineindex=\count315
+\t@pgfplots@toka=\toks46
+\t@pgfplots@tokb=\toks47
+\t@pgfplots@tokc=\toks48
+\pgfplots@tmpa=\dimen321
+\c@pgfplots@coordindex=\count339
+\c@pgfplots@scanlineindex=\count340
 
 (D:\Soft\MikTex\tex/generic/pgfplots/sys\pgfplotssysgeneric.code.tex))
 (D:\Soft\MikTex\tex/generic/pgfplots/libs\pgfplotslibrary.code.tex)
@@ -966,12 +1047,12 @@ ex)
 (D:\Soft\MikTex\tex/generic/pgfplots/liststructure\pgfplotsliststructureext.cod
 e.tex)
 (D:\Soft\MikTex\tex/generic/pgfplots/liststructure\pgfplotsarray.code.tex
-\c@pgfplotsarray@tmp=\count316
+\c@pgfplotsarray@tmp=\count341
 )
 (D:\Soft\MikTex\tex/generic/pgfplots/liststructure\pgfplotsmatrix.code.tex)
 (D:\Soft\MikTex\tex/generic/pgfplots/numtable\pgfplotstableshared.code.tex
-\c@pgfplotstable@counta=\count317
-\t@pgfplotstable@a=\toks48
+\c@pgfplotstable@counta=\count342
+\t@pgfplotstable@a=\toks49
 )
 (D:\Soft\MikTex\tex/generic/pgfplots/liststructure\pgfplotsdeque.code.tex)
 (D:\Soft\MikTex\tex/generic/pgfplots/util\pgfplotsbinary.code.tex
@@ -979,7 +1060,7 @@ e.tex)
 (D:\Soft\MikTex\tex/generic/pgfplots/util\pgfplotsutil.verb.code.tex)
 (D:\Soft\MikTex\tex/generic/pgfplots/libs\pgflibrarypgfplots.surfshading.code.t
 ex
-\c@pgfplotslibrarysurf@no=\count318
+\c@pgfplotslibrarysurf@no=\count343
 
 (D:\Soft\MikTex\tex/generic/pgfplots/sys\pgflibrarypgfplots.surfshading.pgfsys-
 pdftex.def)))
@@ -997,13 +1078,13 @@ pdftex.def)))
 (D:\Soft\MikTex\tex/generic/pgfplots\pgfplots.paths.code.tex)
 (D:\Soft\MikTex\tex/generic/pgfplots/libs\tikzlibrarypgfplots.contourlua.code.t
 ex)
-\pgfplots@numplots=\count319
-\pgfplots@xmin@reg=\dimen285
-\pgfplots@xmax@reg=\dimen286
-\pgfplots@ymin@reg=\dimen287
-\pgfplots@ymax@reg=\dimen288
-\pgfplots@zmin@reg=\dimen289
-\pgfplots@zmax@reg=\dimen290
+\pgfplots@numplots=\count344
+\pgfplots@xmin@reg=\dimen322
+\pgfplots@xmax@reg=\dimen323
+\pgfplots@ymin@reg=\dimen324
+\pgfplots@ymax@reg=\dimen325
+\pgfplots@zmin@reg=\dimen326
+\pgfplots@zmax@reg=\dimen327
 )
 (D:\Soft\MikTex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryplotmar
 ks.code.tex
@@ -1018,64 +1099,64 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 (D:\Soft\MikTex\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count320
-\Gm@cntv=\count321
-\c@Gm@tempcnt=\count322
-\Gm@bindingoffset=\dimen291
-\Gm@wd@mp=\dimen292
-\Gm@odd@mp=\dimen293
-\Gm@even@mp=\dimen294
-\Gm@layoutwidth=\dimen295
-\Gm@layoutheight=\dimen296
-\Gm@layouthoffset=\dimen297
-\Gm@layoutvoffset=\dimen298
-\Gm@dimlist=\toks49
+\Gm@cnth=\count345
+\Gm@cntv=\count346
+\c@Gm@tempcnt=\count347
+\Gm@bindingoffset=\dimen328
+\Gm@wd@mp=\dimen329
+\Gm@odd@mp=\dimen330
+\Gm@even@mp=\dimen331
+\Gm@layoutwidth=\dimen332
+\Gm@layoutheight=\dimen333
+\Gm@layouthoffset=\dimen334
+\Gm@layoutvoffset=\dimen335
+\Gm@dimlist=\toks50
 
 (D:\Soft\MikTex\tex/latex/geometry\geometry.cfg))
 (D:\Soft\MikTex\tex/latex/titlesec\titleps.sty
 Package: titleps 2021/07/05 v2.14 Page styles
-)) (math_defs.tex)
+)
 
 LaTeX Warning: Unused global option(s):
     [14pt].
 
-(paper1.aux)
-\openout1 = `paper1.aux'.
+(paper.aux)
+\openout1 = `paper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Info: Redefining \th on input line 3.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Info: Redefining \th on input line 63.
  (D:\Soft\MikTex\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count323
-\scratchdimen=\dimen299
-\scratchbox=\box67
-\nofMPsegments=\count324
-\nofMParguments=\count325
-\everyMPshowfont=\toks50
-\MPscratchCnt=\count326
-\MPscratchDim=\dimen300
-\MPnumerator=\count327
-\makeMPintoPDFobject=\count328
-\everyMPtoPDFconversion=\toks51
+\scratchcounter=\count348
+\scratchdimen=\dimen336
+\scratchbox=\box69
+\nofMPsegments=\count349
+\nofMParguments=\count350
+\everyMPshowfont=\toks51
+\MPscratchCnt=\count351
+\MPscratchDim=\dimen337
+\MPnumerator=\count352
+\makeMPintoPDFobject=\count353
+\everyMPtoPDFconversion=\toks52
 ) (D:\Soft\MikTex\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1084,20 +1165,32 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 (D:\Soft\MikTex\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 3.
- (paper1.out) (paper1.out)
+Package hyperref Info: Link coloring OFF on input line 63.
+ (paper.out) (paper.out)
 \@outlinefile=\write5
-\openout5 = `paper1.out'.
+\openout5 = `paper.out'.
 
+LaTeX Font Info:    Trying to load font information for U+msa on input line 63.
+
+
+(D:\Soft\MikTex\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 63.
+
+
+(D:\Soft\MikTex\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
 
 Package tikz-feynman Warning: LuaTeX is required if you wish to have vertices a
 utomatically placed. You can disable this warning by setting /tikzfeynman/warn 
-luatex=false on input line 3.
+luatex=false on input line 63.
 
 
 Package tikz-feynman Warning: Consider loading TikZ-Feynman with \usepackage[co
 mpat=1.1.0]{tikz-feynman} so that you can be warned if TikZ-Feynman changes. on
- input line 3.
+ input line 63.
 
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
@@ -1136,256 +1229,234 @@ s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(paper1.toc
-LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
- (D:\Soft\MikTex\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
-
-(D:\Soft\MikTex\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+(paper.toc)
 \tf@toc=\write6
-\openout6 = `paper1.toc'.
+\openout6 = `paper.toc'.
 
- (src/Introduction.tex)
-(src/Common.tex [1
+ [1
 
-{C:/Users/MainUser/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]) (src/Cap
-ture.tex
+{C:/Users/MainUser/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 3.
+LaTeX Warning: Command \textquoteright invalid in math mode on input line 132.
 
 
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 14.
+LaTeX Warning: Command \textquoteright invalid in math mode on input line 143.
 
 [2]
-Overfull \hbox (0.88187pt too wide) in paragraph at lines 25--26
+Overfull \hbox (0.88187pt too wide) in paragraph at lines 154--155
 []\T2A/cmr/m/n/10 Где $\OML/cmm/m/it/10 V[]$ \T2A/cmr/m/n/10 --- пол-ный объ-ем
  Солн-ца, $\OML/cmm/m/it/10 n[]$ \T2A/cmr/m/n/10 --- ло-каль-ная кон-цен-тра-ци
 я ча-стиц тјм-ной ма-те-рии ($\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/1
 0 4[]\OML/cmm/m/it/10 =[][]$\T2A/cmr/m/n/10 ),
  []
 
-) (src/Termalization.tex [3] [4]) (src/Scenarius.tex) (src/Results.tex [5]
-<images/Capt100_100.png, id=151, 944.93025pt x 466.1415pt>
+[3] [4]
+<images/Capt100_100.png, id=120, 944.93025pt x 466.1415pt>
 File: images/Capt100_100.png Graphic file (type png)
 <use images/Capt100_100.png>
-Package pdftex.def Info: images/Capt100_100.png  used on input line 17.
+Package pdftex.def Info: images/Capt100_100.png  used on input line 374.
 (pdftex.def)             Requested size: 338.58632pt x 167.0284pt.
-<images/Dout100_100.png, id=153, 1073.2095pt x 533.5935pt>
+<images/Dout100_100.png, id=122, 1073.2095pt x 533.5935pt>
 File: images/Dout100_100.png Graphic file (type png)
 <use images/Dout100_100.png>
-Package pdftex.def Info: images/Dout100_100.png  used on input line 25.
+Package pdftex.def Info: images/Dout100_100.png  used on input line 382.
 (pdftex.def)             Requested size: 338.58632pt x 168.34338pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 PGFPlots: reading {tables/CaptDout100_100and50.csv}
 
-
 Package pgfplots Warning: Table 'tables/CaptDout100_100and50.csv' has an empty 
-column name; replacing it by '0'' on input line 49.
+column name; replacing it by '0'' on input line 406.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {tables/CaptDout100_100and50.csv}
 
 Package pgfplots Warning: Table 'tables/CaptDout100_100and50.csv' has an empty 
-column name; replacing it by '0'' on input line 50.
+column name; replacing it by '0'' on input line 407.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {tables/CaptDout100_100and50.csv}
 
 Package pgfplots Warning: Table 'tables/CaptDout100_100and50.csv' has an empty 
-column name; replacing it by '0'' on input line 51.
+column name; replacing it by '0'' on input line 408.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {tables/CaptDout100_100and50.csv}
 
 Package pgfplots Warning: Table 'tables/CaptDout100_100and50.csv' has an empty 
-column name; replacing it by '0'' on input line 52.
+column name; replacing it by '0'' on input line 409.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {tables/Term100.csv}
 
 Package pgfplots Warning: Table 'tables/Term100.csv' has an empty column name; 
-replacing it by '0'' on input line 53.
+replacing it by '0'' on input line 410.
 
  [warning /pgfplots/warning/empty column name]
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (8.29784pt too wide) in paragraph at lines 62--63
+Overfull \hbox (8.29784pt too wide) in paragraph at lines 419--420
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-Package pgfplots info on input line 82: Using 'lua backend=false' for axis: ymo
-de=log unsupported (yet).
+Package pgfplots info on input line 439: Using 'lua backend=false' for axis: ym
+ode=log unsupported (yet).
 PGFPlots: reading {tables/CaptAnn_noAnn100.csv}
 
 Package pgfplots Warning: Table 'tables/CaptAnn_noAnn100.csv' has an empty colu
-mn name; replacing it by '0'' on input line 83.
+mn name; replacing it by '0'' on input line 440.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {tables/CaptAnn_noAnn100.csv}
 
 Package pgfplots Warning: Table 'tables/CaptAnn_noAnn100.csv' has an empty colu
-mn name; replacing it by '0'' on input line 85.
+mn name; replacing it by '0'' on input line 442.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {tables/Ann_withAnn100.csv}
 
 Package pgfplots Warning: Table 'tables/Ann_withAnn100.csv' has an empty column
- name; replacing it by '0'' on input line 87.
+ name; replacing it by '0'' on input line 444.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {tables/CaptAnn_noAnn100.csv}
 
 Package pgfplots Warning: Table 'tables/CaptAnn_noAnn100.csv' has an empty colu
-mn name; replacing it by '0'' on input line 89.
+mn name; replacing it by '0'' on input line 446.
 
  [warning /pgfplots/warning/empty column name]
 Missing character: There is no ; in font nullfont!
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-Package pgfplots info on input line 121: Using 'lua backend=false' for axis: ym
+[5] [6 <./images/Capt100_100.png> <./images/Dout100_100.png>]
+Package pgfplots info on input line 478: Using 'lua backend=false' for axis: ym
 ode=log unsupported (yet).
 PGFPlots: reading {tables/DeltaM_SL.csv}
 
+
 Package pgfplots Warning: Table 'tables/DeltaM_SL.csv' has an empty column name
-; replacing it by '0'' on input line 122.
+; replacing it by '0'' on input line 479.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {tables/DeltaM_SL.csv}
 
 Package pgfplots Warning: Table 'tables/DeltaM_SL.csv' has an empty column name
-; replacing it by '0'' on input line 123.
+; replacing it by '0'' on input line 480.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {tables/DeltaM_SL.csv}
 
 Package pgfplots Warning: Table 'tables/DeltaM_SL.csv' has an empty column name
-; replacing it by '0'' on input line 124.
+; replacing it by '0'' on input line 481.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {tables/DeltaM_SL.csv}
 
 Package pgfplots Warning: Table 'tables/DeltaM_SL.csv' has an empty column name
-; replacing it by '0'' on input line 125.
+; replacing it by '0'' on input line 482.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {tables/DeltaM_SL.csv}
 
 Package pgfplots Warning: Table 'tables/DeltaM_SL.csv' has an empty column name
-; replacing it by '0'' on input line 126.
+; replacing it by '0'' on input line 483.
 
  [warning /pgfplots/warning/empty column name]
 Missing character: There is no ; in font nullfont!
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: Command \CYRS invalid in math mode on input line 142.
+LaTeX Warning: Command \CYRS invalid in math mode on input line 499.
 
 Missing character: There is no С in font cmr10!
-[6 <./images/Capt100_100.png> <./images/Dout100_100.png>]
-Overfull \vbox (2.83292pt too high) has occurred while \output is active []
-
-
-[7]) (src/CompDetails.tex) (src/Conv.tex [8]
+[7] [8]
 PGFPlots: reading {tables/Conv10.csv}
 
 
 Package pgfplots Warning: Table 'tables/Conv10.csv' has an empty column name; r
-eplacing it by '0'' on input line 62.
+eplacing it by '0'' on input line 654.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {tables/Conv10.csv}
 
 Package pgfplots Warning: Table 'tables/Conv10.csv' has an empty column name; r
-eplacing it by '0'' on input line 74.
+eplacing it by '0'' on input line 666.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {tables/ConvInel_E.csv}
 
 Package pgfplots Warning: Table 'tables/ConvInel_E.csv' has an empty column nam
-e; replacing it by '0'' on input line 104.
+e; replacing it by '0'' on input line 696.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {tables/ConvInel_E.csv}
 
 Package pgfplots Warning: Table 'tables/ConvInel_E.csv' has an empty column nam
-e; replacing it by '0'' on input line 105.
+e; replacing it by '0'' on input line 697.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {tables/ConvInel_E.csv}
 
 Package pgfplots Warning: Table 'tables/ConvInel_E.csv' has an empty column nam
-e; replacing it by '0'' on input line 106.
+e; replacing it by '0'' on input line 698.
 
  [warning /pgfplots/warning/empty column name]
 Missing character: There is no ; in font nullfont!
 PGFPlots: reading {tables/ConvInel_L.csv}
 
 Package pgfplots Warning: Table 'tables/ConvInel_L.csv' has an empty column nam
-e; replacing it by '0'' on input line 126.
+e; replacing it by '0'' on input line 718.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {tables/ConvInel_L.csv}
 
 Package pgfplots Warning: Table 'tables/ConvInel_L.csv' has an empty column nam
-e; replacing it by '0'' on input line 127.
+e; replacing it by '0'' on input line 719.
 
  [warning /pgfplots/warning/empty column name]
 PGFPlots: reading {tables/ConvInel_L.csv}
 
 Package pgfplots Warning: Table 'tables/ConvInel_L.csv' has an empty column nam
-e; replacing it by '0'' on input line 128.
+e; replacing it by '0'' on input line 720.
 
  [warning /pgfplots/warning/empty column name]
 Missing character: There is no ; in font nullfont!
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (paper1.bbl [9]
-LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
-7.
- (D:\Soft\MikTex\tex/latex/cyrillic\t2acmtt.fd
-File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-)) [10]
-(paper1.aux)
-Package rerunfilecheck Info: File `paper1.out' has not changed.
+[9] [10] (paper.aux)
+Package rerunfilecheck Info: File `paper.out' has not changed.
 (rerunfilecheck)             Checksum: F9E02C4C45F51BADACA259461BAF255E;1421.
  ) 
 Here is how much of TeX's memory you used:
- 37164 strings out of 475385
- 852383 string characters out of 2790968
- 1453715 words of memory out of 3000000
- 57796 multiletter control sequences out of 15000+600000
- 478947 words of font info for 47 fonts, out of 8000000 for 9000
+ 39183 strings out of 475385
+ 923579 string characters out of 2790968
+ 1510967 words of memory out of 3000000
+ 59856 multiletter control sequences out of 15000+600000
+ 477428 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 89i,19n,93p,2213b,2320s stack positions out of 10000i,1000n,20000p,200000b,80000s
- <C:\Users\MainUser\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lat
-t1000.pk> <C:\Users\MainUser\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi
-600\lati1000.pk> <C:\Users\MainUser\AppData\Local\MiKTeX\fonts/pk/ljfour/jknapp
-en/ec/dpi600\tcrm1000.pk> <C:\Users\MainUser\AppData\Local\MiKTeX\fonts/pk/ljfo
-ur/lh/lh-t2a/dpi600\larm0700.pk> <C:\Users\MainUser\AppData\Local\MiKTeX\fonts/
-pk/ljfour/lh/lh-t2a/dpi600\labx1200.pk> <C:\Users\MainUser\AppData\Local\MiKTeX
-\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk> <C:\Users\MainUser\AppData\Local
-\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1000.pk> <C:\Users\MainUser\AppDat
-a\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk><D:/Soft/MikTex/fon
-ts/type1/public/amsfonts/cm/cmex10.pfb><D:/Soft/MikTex/fonts/type1/public/amsfo
-nts/cmextra/cmex7.pfb><D:/Soft/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb
-><D:/Soft/MikTex/fonts/type1/public/amsfonts/cm/cmmi5.pfb><D:/Soft/MikTex/fonts
-/type1/public/amsfonts/cm/cmmi7.pfb><D:/Soft/MikTex/fonts/type1/public/amsfonts
-/cm/cmr10.pfb><D:/Soft/MikTex/fonts/type1/public/amsfonts/cm/cmr5.pfb><D:/Soft/
-MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/Soft/MikTex/fonts/type1/publ
-ic/amsfonts/cm/cmsy10.pfb><D:/Soft/MikTex/fonts/type1/public/amsfonts/cm/cmsy5.
-pfb><D:/Soft/MikTex/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on paper1.pdf (10 pages, 1448670 bytes).
+ 76i,19n,90p,2160b,2316s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\MainUser\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lar
+m0700.pk> <C:\Users\MainUser\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi
+600\labx1200.pk> <C:\Users\MainUser\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-
+t2a/dpi600\larm1000.pk> <C:\Users\MainUser\AppData\Local\MiKTeX\fonts/pk/ljfour
+/lh/lh-t2a/dpi600\labx1000.pk> <C:\Users\MainUser\AppData\Local\MiKTeX\fonts/pk
+/ljfour/lh/lh-t2a/dpi600\labx1440.pk><D:/Soft/MikTex/fonts/type1/public/amsfont
+s/cm/cmex10.pfb><D:/Soft/MikTex/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><
+D:/Soft/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Soft/MikTex/fonts/
+type1/public/amsfonts/cm/cmmi5.pfb><D:/Soft/MikTex/fonts/type1/public/amsfonts/
+cm/cmmi7.pfb><D:/Soft/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Soft/
+MikTex/fonts/type1/public/amsfonts/cm/cmr5.pfb><D:/Soft/MikTex/fonts/type1/publ
+ic/amsfonts/cm/cmr7.pfb><D:/Soft/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.p
+fb><D:/Soft/MikTex/fonts/type1/public/amsfonts/cm/cmsy5.pfb><D:/Soft/MikTex/fon
+ts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on paper.pdf (10 pages, 1414137 bytes).
 PDF statistics:
- 607 PDF objects out of 1000 (max. 8388607)
- 81 named destinations out of 1000 (max. 500000)
+ 485 PDF objects out of 1000 (max. 8388607)
+ 71 named destinations out of 1000 (max. 500000)
  111 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -9,4 +9,4 @@
 \contentsline {section}{\numberline {6}Appendix}{8}{section.6}%
 \contentsline {subsection}{\numberline {6.1}Computational details}{8}{subsection.6.1}%
 \contentsline {subsection}{\numberline {6.2}Numerical correctness of schemes}{9}{subsection.6.2}%
-\contentsline {section}{\numberline {7}Bibliography}{10}{section.7}%
+\contentsline {section}{\numberline {7}Bibliography}{9}{section.7}%
